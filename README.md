@@ -1,4 +1,3 @@
--- Tạo GUI
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Button = Instance.new("TextButton")
@@ -16,7 +15,6 @@ Button.Text = "Fly: OFF"
 Button.BackgroundColor3 = Color3.fromRGB(50,50,50)
 Button.TextColor3 = Color3.new(1,1,1)
 
--- Fly variables
 local flying = false
 local speed = 50
 local player = game.Players.LocalPlayer
