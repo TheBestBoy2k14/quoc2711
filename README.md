@@ -1,9 +1,3 @@
-local grad = Instance.new("UIGradient", frame)
-grad.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(0,170,255)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(0,0,0))
-}
-
 local player = game.Players.LocalPlayer
 local char = player.Character or player.CharacterAdded:Wait()
 local hrp = char:WaitForChild("HumanoidRootPart")
